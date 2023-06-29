@@ -22,7 +22,7 @@ public class UserInfoDaoImpl extends BaseDao<UserInfo> implements UserInfoDao {
     static ResultSet resultSet;
     static String url = "jdbc:mysql:///background_management_system_db?useSSl=false & useUniCode=true & characterEncoding=utf-8 & serverTimezone=GMT  & serverTimezone=Asia/Shanghai";
     static String u = "root";
-    static String p = "qbM9g&wjaCyC";
+    static String p = "000000";
 
     @Override
     public List<UserInfo> getUserInfoAll() {
